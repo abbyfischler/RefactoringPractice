@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #ECECEC;
+}
+
+.name, .email, .city {
+  width: 300px;
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.name {
+  margin-top: 25px;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #8A089B;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  background: #D3A2DA;
+}
+
+.contact-card {
+  background: #fff;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+p {
+  padding: 2px;
+}
